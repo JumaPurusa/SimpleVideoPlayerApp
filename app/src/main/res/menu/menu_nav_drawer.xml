@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/groupHome"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHome"
+            android:checked="true"
+            android:title="Video" />
+    </group>
+
+    <group
+        android:id="@+id/groupURL"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navURL"
+            android:checkable="false"
+            android:title="Play URL Video" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <!--<item-->
+        <!--android:id="@+id/navPrefs"-->
+        <!--android:checkable="false"-->
+        <!--android:icon="@drawable/ic_settings"-->
+        <!--android:title="Settings" />-->
+
+        <item
+            android:id="@+id/navAbout"
+            android:checkable="true"
+            android:title="Play Default Video" />
+    </group>
+</menu>
